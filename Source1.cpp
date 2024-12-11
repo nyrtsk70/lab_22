@@ -14,7 +14,7 @@ int main() {
     cin >> z;
     x1 = y - sqrt(abs(x));             
     x2 = y / (z + (pow(x, 2) / 4));    
-    x3 = x - x2;
+    x3 = x - x2;//yyyyyyyyyyyy
     f = log(abs(x1 * x3));            
         cout << "Ответ: " << f;//коммент1
 }
